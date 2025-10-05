@@ -20,7 +20,7 @@ def gen_pallindromic(n):
                 pallindromic.append(odd_p)
     return pallindromic
 
-n=13
+n=9999
 ans=gen_pallindromic(n)
 print(ans)
 
