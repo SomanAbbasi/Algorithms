@@ -18,7 +18,12 @@ def gen_pallindromic(n):
             odd_p=int(half_str+half_str[-2::-1])
             if odd_p<=n:
                 pallindromic.append(odd_p)
-    
+    return pallindromic
+
+n=13
+ans=gen_pallindromic(n)
+print(ans)
+
     
     
 
