@@ -50,7 +50,6 @@ if __name__=='__main__':
 
 
 # =========BFS on Disconnected Graph ==========
-
 """
 In a disconnected graph, not all nodes are reachable from one source.
 So, BFS starting from one node will only visit the connected component that includes that node.
